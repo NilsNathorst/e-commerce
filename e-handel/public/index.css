@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	transition: 2s;
+	font-family: 'Baloo Chettan', cursive;
+}
+.bg-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+#root, .App {
+height: 100vh;	
+}
+
+@font-face {
+  font-family: Fruity;
+  src: url('assets/fonts/fruit.woff') format("woff");
+}
+@font-face {
+  font-family: FruityFresh;
+  src: url('assets/fonts/Organic_Fruit.woff') format("woff");
+}
+
+.addAnimation {
+animation: addToCart 1s ease-in;
+
+}
+
+@keyframes addToCart {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
